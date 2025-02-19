@@ -1,0 +1,126 @@
+li{
+    color:black;
+}
+.vertical-minus1 {
+    vertical-align: -0.05em;
+}
+.background {
+    background: center url('images/bg.jpg') no-repeat;
+    background-size: cover;
+
+    min-height: 60vh;
+}
+.bg-dark-transparent {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.theme-text-light {
+    color: #f1f2ed;
+}
+
+.theme-text-primary {
+    color: #a25442;
+}
+
+.theme-text-secondary {
+    color: #3a5757;
+}
+
+.theme-text-lightyellow {
+    color: #abac88;
+}
+
+.theme-text-darkyellow {
+    color: #ba9058;
+}
+
+.theme-bg-light {
+    background-color: #f1f2ed;
+}
+
+.theme-bg-primary {
+    background-color: #a25442;
+}
+
+.theme-bg-secondary {
+    background-color: #3a5757;
+}
+
+.theme-bg-lightyellow {
+    background-color: #abac88;
+}
+
+.theme-bg-darkyellow {
+    background-color: #ba9058;
+}
+.progress-label {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+.jeden{
+    color:#3a5757;
+
+}
+.dwa{
+color:#0D6EFD
+}
+.trzy{
+   color: #BA9058
+}
+.uslugi-tlo{
+    background-color: #0d6dfd6e;
+}
+.theme-border-light {
+    border-color: #f1f2ed !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #0a0a0a;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+.accordion-button{
+    font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+    .featured-card {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+
+    .pricing-card.order-md-1 {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-top:20px;
+     
+       
+    }
+
+    .pricing-card.order-md-3 {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-top:20px;
+       
+    }
+    .pricing-card.order-md-2 {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        background-color: #135A3A;
+        color:white;
+      
+        
+    }
+    .pricing-card .card-header
+    {padding-top:20px;
+
+
+    }
+    .featured-card .card-header
+    {padding-top:40px;
+
+
+    }
+  
+}
+}
